@@ -8,7 +8,13 @@ const bookingRouter = require('./routes/bookingRoutes.js')
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+  origin: [
+    "https://car-rental-cdyl-ictrlsksb-archer1200s-projects.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}))
 app.use(express.json())
 
 
