@@ -1,6 +1,6 @@
 const Car = require('../models/cars')
 const fs = require('fs')
-const Booking = require('../models/Booking')  
+const Booking = require('../models/booking')  
 const ImageKit = require('imagekit')
 const User = require('../models/User')
 
