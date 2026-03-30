@@ -8,31 +8,24 @@ const bookingRouter = require('./routes/bookingRoutes.js')
 
 const app = express()
 
-const allowedOrigins = [
-  "https://car-rental-22hg.vercel.app", // new frontend
-  "http://localhost:5173"
-]
-
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true)
-    } else {
-      callback(new Error("Not allowed by CORS"))
-    }
-  },
-  credentials: true
-}))
+app.use(cors({ origin: "*" }))
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*")
+  res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS")
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization")
+  next()
+})
+app.options('*', cors())
 app.use(express.json())
 
 
 app.get('/', (req, res) => {
     res.send('Server is running')
 })
-
 app.use('/api/user', userRouter)
 app.use('/api/owner',ownerRouter)
 app.use('/api/bookings',bookingRouter)
+
 
 
 
