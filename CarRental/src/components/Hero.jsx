@@ -23,7 +23,7 @@ const Hero = () => {
 
   {/* Heading */}
   <h1 className="text-3xl md:text-5xl font-semibold">
-    Luxury cars on Rent
+    Luxury cars on Rent--Hello Sumit!!
   </h1>
 
   {/* Form */}
