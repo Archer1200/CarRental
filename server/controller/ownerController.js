@@ -2,7 +2,7 @@ const Car = require('../models/cars')
 const fs = require('fs')
 const Booking = require('../models/booking')  
 const ImageKit = require('imagekit')
-const User = require('../models/User')
+const User = require('../models/user')
 
 const imagekit = new ImageKit({
     publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
