@@ -8,11 +8,19 @@ const bookingRouter = require('./routes/bookingRoutes.js')
 
 const app = express()
 
+const allowedOrigins = [
+  "https://car-rental-22hg.vercel.app", // new frontend
+  "http://localhost:5173"
+]
+
 app.use(cors({
-  origin: [
-    "https://car-rental-cdyl-ictrlsksb-archer1200s-projects.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true)
+    } else {
+      callback(new Error("Not allowed by CORS"))
+    }
+  },
   credentials: true
 }))
 app.use(express.json())
