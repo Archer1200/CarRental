@@ -13,50 +13,6 @@ A full-stack Car Rental web application that allows users to browse available ca
 ┃ ┃ ┗ icons.svg
 ┃ ┣ src
 ┃ ┃ ┣ assets
-┃ ┃ ┃ ┣ addIcon.svg
-┃ ┃ ┃ ┣ addIconColored.svg
-┃ ┃ ┃ ┣ arrow_icon.svg
-┃ ┃ ┃ ┣ assets.js
-┃ ┃ ┃ ┣ banner_car_image.png
-┃ ┃ ┃ ┣ calendar_icon_colored.svg
-┃ ┃ ┃ ┣ car_icon.svg
-┃ ┃ ┃ ┣ car_image1.png
-┃ ┃ ┃ ┣ car_image2.png
-┃ ┃ ┃ ┣ car_image3.png
-┃ ┃ ┃ ┣ car_image4.png
-┃ ┃ ┃ ┣ carIcon.svg
-┃ ┃ ┃ ┣ carIconColored.svg
-┃ ┃ ┃ ┣ cautionIconColored.svg
-┃ ┃ ┃ ┣ check_icon.svg
-┃ ┃ ┃ ┣ close_icon.svg
-┃ ┃ ┃ ┣ dashboardIcon.svg
-┃ ┃ ┃ ┣ dashboardIconColored.svg
-┃ ┃ ┃ ┣ delete_icon.svg
-┃ ┃ ┃ ┣ edit_icon.svg
-┃ ┃ ┃ ┣ eye_close_icon.svg
-┃ ┃ ┃ ┣ eye_icon.svg
-┃ ┃ ┃ ┣ facebook_logo.svg
-┃ ┃ ┃ ┣ filter_icon.svg
-┃ ┃ ┃ ┣ fuel_icon.svg
-┃ ┃ ┃ ┣ gmail_logo.svg
-┃ ┃ ┃ ┣ instagram_logo.svg
-┃ ┃ ┃ ┣ listIcon.svg
-┃ ┃ ┃ ┣ listIconColored.svg
-┃ ┃ ┃ ┣ location_icon_colored.svg
-┃ ┃ ┃ ┣ location_icon.svg
-┃ ┃ ┃ ┣ logo.svg
-┃ ┃ ┃ ┣ main_car.png
-┃ ┃ ┃ ┣ menu_icon.svg
-┃ ┃ ┃ ┣ react.svg
-┃ ┃ ┃ ┣ search_icon.svg
-┃ ┃ ┃ ┣ star_icon.svg
-┃ ┃ ┃ ┣ testimonial_image_1.png
-┃ ┃ ┃ ┣ testimonial_image_2.png
-┃ ┃ ┃ ┣ tick_icon.svg
-┃ ┃ ┃ ┣ twitter_logo.svg
-┃ ┃ ┃ ┣ upload_icon.svg
-┃ ┃ ┃ ┣ user_profile.png
-┃ ┃ ┃ ┗ users_icon.svg
 ┃ ┃ ┣ components
 ┃ ┃ ┃ ┣ owner
 ┃ ┃ ┃ ┃ ┣ NavbarOwner.jsx
