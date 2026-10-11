@@ -10,6 +10,7 @@ const app = express()
 
 app.use(cors({
   origin: 'https://car-rental-bj31.vercel.app',
+  "https://car-rental-bj31-dkq44fn8a-archer1200s-projects.vercel.app",
   credentials: true
 }))
 app.use(express.json())
